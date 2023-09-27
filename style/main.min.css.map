@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/main.scss",
+        "../scss/_block/_header.scss",
+        "../scss/_block/_hero.scss",
+        "../scss/_block/_footer.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}
