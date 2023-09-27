@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/main.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>LIBRARY</title>
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -13,18 +21,180 @@
                 <div class="logo">
                     <h3>Badiiyat</h3>
                 </div>
-                <nav>
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#">Bosh sahifa</a></li>
-                        <li class="menu__item"><a href="#">Kitoblar</a></li>
-                    </ul>
-                </nav>
-                <div class="account">
-                    <img src="" alt="">
-                    
+                <i class="fa-solid fa-bars fa-2xl" style="display: none;"></i>
+                <div class="nav__wrapper">
+                    <nav>
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="#" target="_blank">Bosh sahifa</a></li>
+                            <li class="menu__item"><a href="#" target="_blank">Kitoblar</a></li>
+                        </ul>
+                    </nav>
+                    <div class="info">
+                        <div class="sign-up">
+                            <a href="#">Sign Up</a>
+                        </div>
+                        <div class="login">
+                            <a href="#" class="login">Login</a>
+                        </div>
+                        <div class="account">
+                            <img src="" alt="">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
+    <main>
+        <div class="container">
+            <div class="banner">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://oyina.uz/storage/articles/October2021/W3s4FZhUOddVJ15ImjZt.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://english-life.uz/wp-content/uploads/Amir-Temur-va-temuriylar-hukmronligi-davrida-ilm-fan-va-madaniyat..jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://oyina.uz/storage/articles/October2021/mXkiVE6MQV0smPrvPdoC.jpg"
+                                class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <div class="search">
+                    <div class="search-title">
+                        <h2>Qidirish</h2>
+                    </div>
+                    <form>
+                        <input type="text" placeholder="Adiblar, kitoblar, audiolar, maqolalar...">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"
+                                style="color: #ffffff;"></i>&nbsp&nbspizlash</button>
+                    </form>
+                </div>
+            </div>
+            <div class="categories">
+                <div class="categories-title">
+                    <h2>Asosiy kategoriyalar</h2>
+                </div>
+                <ul class="categorie-menu">
+                    <li><a href="#">Temuriylar davri</a></li>
+                    <li><a href="#">Jadid adabiyoti</a></li>
+                    <li><a href="#">Sovet davri</a></li>
+                    <li><a href="#">Mustaqillik davri</a></li>
+                </ul>
+                <div class="categories-cards">
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                    <div class="categorie-card">
+                        <img src="https://ziyouz.uz/wp-content/uploads/2013/06/abdulla-avloniy.jpg" alt="">
+                        <div class="categorie-text">
+                            <h3>Abdulla Avloniy</h3>
+                            <p>1878-1934</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
 </body>
+
 </html>
